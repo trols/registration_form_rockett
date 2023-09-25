@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="container">
+    <div class="container__heading">home<span class="container__heading-letter">W</span>orks</div>
+    <div class="container__account">
+        <div class="container__account-text">
+            <h2 id="heading">Get your free account</h2>
+            <p id="tryHomeWork">Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever) anytime.</p>
+        </div>
+
+        <form action="" class="form">
+
+            <div >
+                    <label id="field-full-name">Full Name
+                        <input class="form-input" id="input-full-name" type="text" placeholder="">
+                    </label>
+                <div class="form_input-error err1">Заполните поле Full Name</div>
+                </div>
+
+
+                <div>
+                    <label id="field-user-name" id="fieldUser">Your username
+                        <input class="form-input" id="user-name" value="" type="text" placeholder="">
+                    </label>
+                    <div class="form_input-error">Заполните поле Your username</div>
+                    <div id="mistake1">Такой пользователь не зарегистрирован</div>
+                </div>
+
+                <div >
+                    <label id="field-mail">E-mail
+                        <input class="form-input" id="input-mail" type="" placeholder="">
+                    </label>
+                    <div class="form_input-error">Заполните поле E-mail</div>
+
+                </div>
+
+                <div>
+                    <label id="password">Password
+                        <input class="form-input" id="input-password" type="password" placeholder="">
+                    </label>
+                    <div class="form_input-error">Заполните поле Password</div>
+                    <div id="mistake2">Неверный пароль</div>
+                </div>
+
+                <div>
+                    <label id="field-repeat-password">Repeat Password
+                        <input class="form-input" id="input-password-repeat" type="password" placeholder="">
+                    </label>
+                    <div class="form_input-error">Заполните поле Repeat Password</div>
+                </div>
+
+                <div id="field-checkbox">
+                    <input type="checkbox"  id="agreement" checked>
+                       Agree to our Terms of Service and Privacy Statement
+                    <div class="form_input-error">Заполните поле checkbox</div>
+                </div>
+
+
+                <button type="submit" class="btn" id="submit">Sign UP</button>
+                <div class="container__account-popup" id='already' >Already have an account?</div>
+
+        </form>
+
+
+    </div>
+
+    <div class="container__image">
+        <img src="img.png" alt="Картинка" width="543px" height="529px">
+    </div>
+
+    <div class="modal-popup" id="modalPopup">
+        На вашу почту выслана ссылка, перейдите по ней, чтобы завершить регистрацию
+        <button id="ok" >ok</button>
+    </div>
+
+
+</div>
+
+<script src="scripts/script.js"></script>
+</body>
+</html>
